@@ -9,10 +9,11 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class ProjectAddReqDto {
+public class ProjectListResDto {
 
 	private String name;
 	private String description;
 	private LocalDate dueDate;
 	private Long manager_id;
+	private String managerName;
 }
